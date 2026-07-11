@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+
+<html lang="fa" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Barsam Admin Panel
+    </title>
+
+
+    <link rel="stylesheet" href="admin.css">
+
+
+</head>
+
+
+
+<body>
+
+
+
+    <div class="admin-login" id="loginBox">
+
+
+        <h1>
+            👑 Barsam Admin
+        </h1>
+
+
+        <p>
+            ورود مدیریت سایت
+        </p>
+
+
+
+        <input id="adminUser" placeholder="نام کاربری">
+
+
+
+        <input id="adminPass" type="password" placeholder="رمز عبور">
+
+
+
+        <button onclick="adminLogin()">
+
+            ورود
+
+        </button>
+
+
+
+        <p id="loginMessage"></p>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="dashboard" id="dashboard">
+
+
+
+        <header class="admin-header">
+
+
+            <h1>
+
+                Barsam Dashboard
+
+            </h1>
+
+
+
+            <button onclick="logoutAdmin()">
+
+                خروج
+
+            </button>
+
+
+        </header>
+
+
+
+
+
+
+
+
+        <div class="admin-cards">
+
+
+
+            <div class="admin-card">
+
+
+                <h2>
+                    📝
+                </h2>
+
+
+                <h3>
+
+                    مقالات
+
+                </h3>
+
+
+                <p id="articleCount">
+
+                    0
+
+                </p>
+
+
+            </div>
+
+
+
+
+
+
+
+            <div class="admin-card">
+
+
+                <h2>
+                    🚀
+                </h2>
+
+
+                <h3>
+
+                    پروژه‌ها
+
+                </h3>
+
+
+                <p>
+
+                    0
+
+                </p>
+
+
+            </div>
+
+
+
+
+
+
+
+
+            <div class="admin-card">
+
+
+                <h2>
+                    👁
+                </h2>
+
+
+                <h3>
+
+                    بازدید
+
+                </h3>
+
+
+                <p id="adminVisitors">
+
+                    0
+
+                </p>
+
+
+            </div>
+
+
+
+
+        </div>
+        <section class="admin-section">
+
+
+            <h2>
+
+                مدیریت مقاله
+
+            </h2>
+
+
+
+
+            <input id="articleTitle" placeholder="عنوان مقاله">
+
+
+
+            <textarea id="articleText" placeholder="متن مقاله">
+
+</textarea>
+
+
+
+
+            <button onclick="addAdminArticle()">
+
+                انتشار مقاله
+
+            </button>
+
+
+
+            <div id="articleList">
+
+
+            </div>
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+        <section class="admin-section">
+
+
+            <h2>
+
+                مدیریت پروژه
+
+            </h2>
+
+
+
+
+            <input id="projectName" placeholder="نام پروژه">
+
+
+
+            <textarea id="projectDescription" placeholder="توضیحات پروژه">
+
+</textarea>
+
+
+
+
+            <button onclick="addProject()">
+
+                افزودن پروژه
+
+            </button>
+
+
+
+            <div id="projectList">
+
+
+            </div>
+
+
+
+        </section>
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+    <script src="admin.js"></script>
+
+
+</body>
+
+</html>

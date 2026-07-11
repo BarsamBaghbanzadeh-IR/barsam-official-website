@@ -1,0 +1,4438 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <link rel="icon" href="favicon.png">
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>
+        Barsam Baghbanzadeh | Official Website
+    </title>
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <script type="application/ld+json">
+
+{
+"@context":"https://schema.org",
+"@type":"Person",
+"name":"Barsam Baghbanzadeh",
+"url":"https://YOUR-DOMAIN.com",
+"sameAs":[
+
+]
+
+}
+
+</script>
+</head>
+
+
+<body>
+
+
+    <!-- =========================
+WELCOME SYSTEM
+========================= -->
+
+
+    <div id="welcome" class="welcome">
+
+
+        <div class="stars"></div>
+
+
+        <div class="logo-animation">
+
+            BB
+
+        </div>
+
+
+
+        <h1>
+
+            به سایت رسمی
+
+            <br>
+
+            برسام باغبان زاده
+
+            <br>
+
+            خوش آمدید
+
+        </h1>
+
+
+
+        <p id="typing">
+
+            Welcome to the official digital world
+
+        </p>
+
+
+
+
+        <div class="entry-box">
+
+
+            <h3>
+                🌍 انتخاب کشور
+            </h3>
+
+
+
+            <select id="country">
+
+
+                <option>
+                    🇮🇷 Iran
+                </option>
+
+
+                <option>
+                    🇺🇸 United States
+                </option>
+
+
+                <option>
+                    🇬🇧 United Kingdom
+                </option>
+
+
+                <option>
+                    🇩🇪 Germany
+                </option>
+
+
+                <option>
+                    🌎 Other
+                </option>
+
+
+            </select>
+
+
+
+
+            <h3>
+                🌐 Language
+            </h3>
+
+
+
+            <button onclick="changeLanguage('fa')">
+
+                فارسی
+
+            </button>
+
+
+
+            <button onclick="changeLanguage('en')">
+
+                English
+
+            </button>
+
+
+
+            <br><br>
+
+
+            <button class="enter-btn" onclick="enterSite()">
+
+                ورود به سایت
+
+            </button>
+
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- =========================
+MAIN WEBSITE
+========================= -->
+
+
+    <div id="website" style="display:none;">
+
+
+
+
+
+        <!-- SIDEBAR -->
+
+
+        <aside class="sidebar">
+
+
+            <div class="sidebar-logo">
+
+                BB
+
+            </div>
+
+
+
+            <a href="#home">
+                🏠 خانه
+            </a>
+
+
+            <a href="#about">
+                👤 درباره من
+            </a>
+
+
+
+            <a href="#resume">
+                📄 رزومه
+            </a>
+
+
+
+            <a href="#skills">
+                ⚡ مهارت‌ها
+            </a>
+
+
+
+            <a href="#projects">
+                🚀 پروژه‌ها
+            </a>
+
+
+
+            <a href="#articles">
+                📝 مقالات
+            </a>
+
+
+
+            <a href="#bot">
+                🤖 Barsam Bot
+                <section id="barsam-ai">
+
+                    <h2>
+                        🤖 Barsam AI
+                    </h2>
+
+
+                    <div class="ai-chat-box">
+
+
+                        <div id="chatMessages" class="chat-messages">
+
+
+                            <div class="ai-message">
+
+                                سلام! من Barsam AI هستم. چطور کمک کنم؟ 🤖
+
+                            </div>
+
+
+                        </div>
+
+
+
+                        <div class="chat-input-area">
+
+
+                            <input id="userMessage" placeholder="پیام خود را بنویسید...">
+
+
+
+                            <button onclick="sendAIMessage()">
+
+                                ارسال
+
+                            </button>
+
+
+                        </div>
+
+
+
+                    </div>
+
+
+                </section>
+            </a>
+
+
+
+            <a href="#contact">
+                📩 ارتباط
+            </a>
+
+
+
+            <button onclick="changeTheme()">
+
+                🎨 تغییر تم
+
+            </button>
+
+
+
+        </aside>
+
+
+
+
+
+
+
+
+
+        <!-- HEADER -->
+
+
+        <header>
+            <!-- SEO SETTINGS -->
+
+            <title>
+                Barsam Baghbanzadeh | AI, Technology & Innovation
+            </title>
+
+
+            <meta name="description" content="
+Official website of Barsam Baghbanzadeh.
+Artificial Intelligence, Technology, Programming and Future Innovation.
+">
+
+
+            <meta name="keywords" content="
+Barsam Baghbanzadeh,
+Artificial Intelligence,
+AI,
+Technology,
+Python,
+Programming,
+Innovation
+">
+
+
+            <meta name="author" content="Barsam Baghbanzadeh">
+
+
+
+            <meta name="robots" content="index, follow">
+
+
+
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+            <!-- Social Preview -->
+
+
+            <meta property="og:title" content="Barsam Baghbanzadeh Official Website">
+
+
+
+            <meta property="og:description" content="AI, Technology and Innovation">
+
+
+
+            <meta property="og:type" content="website">
+
+            <div class="brand">
+
+                Barsam Baghbanzadeh
+
+            </div>
+
+
+
+            <nav>
+
+
+                <a href="#home">
+                    Home
+                </a>
+
+
+                <a href="#resume">
+                    Resume
+                </a>
+
+
+                <a href="#projects">
+                    Projects
+                </a>
+
+
+                <a href="#articles">
+                    Articles
+                </a>
+
+
+            </nav>
+
+
+        </header>
+
+
+
+
+
+
+
+
+
+        <!-- HERO SECTION -->
+
+
+        <section id="home" class="hero">
+
+
+            <div class="hero-content">
+
+
+
+                <h1>
+
+                    Technology
+
+                    <br>
+
+                    Artificial Intelligence
+
+                    <br>
+
+                    Future Healthcare
+
+                </h1>
+
+
+
+                <p>
+
+                    ساخت آینده با دانش، خلاقیت و فناوری
+
+                </p>
+
+
+
+                <button onclick="scrollToSection('about')">
+
+                    شروع مشاهده
+
+                </button>
+
+
+
+            </div>
+
+
+
+
+            <div class="hero-image">
+
+
+                <div class="ai-circle">
+
+                    🤖
+
+                </div>
+
+
+            </div>
+
+
+
+        </section>
+        <!-- =========================
+ABOUT SECTION
+========================= -->
+
+
+        <section id="about">
+
+
+            <h2>
+                درباره من
+            </h2>
+
+
+
+            <div class="glass-card">
+
+
+                <h3>
+
+                    Barsam Baghbanzadeh
+
+                </h3>
+
+
+
+                <p>
+
+                    من برسام باغبان زاده هستم.
+
+                    دانش‌آموز علاقه‌مند به برنامه‌نویسی،
+                    هوش مصنوعی، زبان انگلیسی و ترکیب فناوری با علوم پزشکی.
+
+                </p>
+
+
+
+                <div class="info-grid">
+
+
+                    <div>
+
+                        🎓
+
+                        <br>
+
+                        Student
+
+                    </div>
+
+
+
+                    <div>
+
+                        🐍
+
+                        <br>
+
+                        Python
+
+                    </div>
+
+
+
+                    <div>
+
+                        🤖
+
+                        <br>
+
+                        Artificial Intelligence
+
+                    </div>
+
+
+
+                    <div>
+
+                        🦷
+
+                        <br>
+
+                        AI + Dentistry
+
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+        <!-- =========================
+VISION SECTION
+========================= -->
+
+
+        <section id="vision">
+
+
+            <h2>
+
+                چشم‌انداز من
+
+            </h2>
+
+
+
+            <div class="cards">
+
+
+
+                <div class="card">
+
+                    🤖
+
+                    <h3>
+
+                        هوش مصنوعی
+
+                    </h3>
+
+
+                    <p>
+
+                        یادگیری و ساخت فناوری‌های هوشمند
+
+                    </p>
+
+
+                </div>
+
+
+
+
+
+                <div class="card">
+
+
+                    🦷
+
+                    <h3>
+
+                        پزشکی آینده
+
+                    </h3>
+
+
+                    <p>
+
+                        ترکیب تکنولوژی و سلامت
+
+                    </p>
+
+
+                </div>
+
+
+
+
+
+
+                <div class="card">
+
+
+                    🌎
+
+                    <h3>
+
+                        ارتباط جهانی
+
+                    </h3>
+
+
+                    <p>
+
+                        استفاده از زبان و فناوری برای ارتباط با دنیا
+
+                    </p>
+
+
+                </div>
+
+
+
+
+            </div>
+
+
+        </section>
+
+
+
+
+
+
+
+
+        <!-- =========================
+RESUME START
+========================= -->
+
+
+        <section id="resume">
+
+
+            <h2>
+
+                رزومه من
+
+            </h2>
+
+
+
+            <div class="resume-box">
+
+
+                <h3>
+                    🎓 Education
+                </h3>
+
+
+                <p>
+
+                    Student
+
+                    <br>
+
+                    Learning Programming & AI
+
+                </p>
+
+
+            </div>
+
+
+
+            <div class="resume-box">
+
+
+                <h3>
+                    💻 Technology
+                </h3>
+
+
+                <p>
+
+                    HTML
+
+                    <br>
+
+                    CSS
+
+                    <br>
+
+                    JavaScript
+
+                    <br>
+
+                    Python
+
+                </p>
+
+
+            </div>
+
+
+
+            <div class="resume-box">
+
+
+                <h3>
+
+                    🤖 AI Research
+
+                </h3>
+
+
+                <p>
+
+                    Artificial Intelligence
+
+                    <br>
+
+                    Future Healthcare
+
+                </p>
+
+
+            </div>
+
+
+        </section>
+        <!-- =========================
+SKILLS SECTION
+========================= -->
+
+
+        <section id="skills">
+
+
+            <h2>
+                مهارت‌های من
+            </h2>
+
+
+
+            <div class="skill-container">
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+                        🐍
+                    </div>
+
+
+                    <h3>
+                        Python
+                    </h3>
+
+
+                    <p>
+                        Programming & Artificial Intelligence
+                    </p>
+
+
+                    <div class="progress">
+
+                        <div class="progress-bar python"></div>
+
+                    </div>
+
+
+                </div>
+
+
+
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+                        🤖
+                    </div>
+
+
+                    <h3>
+                        Artificial Intelligence
+                    </h3>
+
+
+                    <p>
+                        Machine Learning & Future Technology
+                    </p>
+
+
+                    <div class="progress">
+
+                        <div class="progress-bar ai"></div>
+
+                    </div>
+
+
+                </div>
+
+
+
+
+
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+                        🌐
+                    </div>
+
+
+                    <h3>
+                        Web Development
+                    </h3>
+
+
+                    <p>
+                        HTML CSS JavaScript
+                    </p>
+
+
+                    <div class="progress">
+
+                        <div class="progress-bar web"></div>
+
+                    </div>
+
+
+                </div>
+
+
+
+
+
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+                        🇬🇧
+                    </div>
+
+
+                    <h3>
+                        English
+                    </h3>
+
+
+                    <p>
+                        Global Communication
+                    </p>
+
+
+                    <div class="progress">
+
+                        <div class="progress-bar english"></div>
+
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+        <!-- =========================
+PROJECTS SECTION
+========================= -->
+
+
+        <section id="projects">
+
+
+            <h2>
+                پروژه‌های من
+            </h2>
+
+
+
+            <p class="section-description">
+
+                نمونه پروژه‌ها و مسیر یادگیری فناوری
+
+            </p>
+
+
+
+
+
+            <div class="project-grid">
+
+
+
+                <div class="project-card">
+
+
+                    <div class="project-image">
+
+                        🐍
+
+                    </div>
+
+
+
+                    <h3>
+                        Python Projects
+                    </h3>
+
+
+
+                    <p>
+
+                        پروژه‌های برنامه‌نویسی پایتون و تمرین‌های الگوریتمی
+
+                    </p>
+
+
+
+                    <button>
+
+                        مشاهده پروژه
+
+                    </button>
+
+
+                </div>
+
+
+
+
+
+
+
+                <div class="project-card">
+
+
+                    <div class="project-image">
+
+                        🤖
+
+                    </div>
+
+
+
+                    <h3>
+                        AI Projects
+                    </h3>
+
+
+
+                    <p>
+
+                        ایده‌ها و پروژه‌های مرتبط با هوش مصنوعی
+
+                    </p>
+
+
+
+                    <button>
+
+                        مشاهده پروژه
+
+                    </button>
+
+
+                </div>
+
+
+
+
+
+
+
+                <div class="project-card">
+
+
+                    <div class="project-image">
+
+                        🦷
+
+                    </div>
+
+
+
+                    <h3>
+                        AI Dentistry
+                    </h3>
+
+
+
+                    <p>
+
+                        ایده ترکیب هوش مصنوعی و پزشکی
+
+                    </p>
+
+
+
+                    <button>
+
+                        مشاهده پروژه
+
+                    </button>
+
+
+                </div>
+
+
+
+
+
+
+
+                <div class="project-card">
+
+
+                    <div class="project-image">
+
+                        🌎
+
+                    </div>
+
+
+
+                    <h3>
+                        Global Platform
+                    </h3>
+
+
+
+                    <p>
+
+                        ساخت یک فضای دیجیتال جهانی
+
+                    </p>
+
+
+
+                    <button>
+
+                        مشاهده پروژه
+
+                    </button>
+
+
+                </div>
+
+
+
+            </div>
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+        <!-- =========================
+ACHIEVEMENTS
+========================= -->
+
+
+        <section id="achievements">
+
+
+            <h2>
+
+                دستاوردها و مسیر رشد
+
+            </h2>
+
+
+
+
+            <div class="achievement-grid">
+
+
+                <div class="achievement">
+
+                    🏆
+
+                    <h3>
+                        Learning
+                    </h3>
+
+                    <p>
+                        یادگیری مداوم فناوری‌های جدید
+                    </p>
+
+                </div>
+
+
+
+
+                <div class="achievement">
+
+                    🚀
+
+                    <h3>
+                        Innovation
+                    </h3>
+
+                    <p>
+                        ساخت ایده‌های جدید
+                    </p>
+
+                </div>
+
+
+
+
+
+                <div class="achievement">
+
+                    🌍
+
+                    <h3>
+                        Future
+                    </h3>
+
+                    <p>
+                        نگاه جهانی به فناوری
+                    </p>
+
+                </div>
+
+
+
+
+            </div>
+
+
+        </section>
+        <!-- =========================
+ARTICLES SECTION
+========================= -->
+
+
+        <section id="articles">
+
+
+            <h2>
+
+                مقالات من
+
+            </h2>
+
+            <section id="dynamic-articles">
+
+                <h2>
+                    📝 آخرین مقالات
+                </h2>
+
+
+                <div id="publicArticleList" class="article-panel">
+
+                </div>
+
+
+            </section>
+            <p>
+
+                مقالات علمی، فناوری و تجربه‌های یادگیری
+
+            </p>
+
+
+
+
+            <div class="article-panel">
+
+
+
+                <div class="article-card">
+
+
+                    <div class="article-icon">
+
+                        📝
+
+                    </div>
+
+
+
+                    <h3>
+
+                        اولین مقاله
+
+                    </h3>
+
+
+
+                    <p>
+
+                        اینجا مقاله‌های رسمی برسام باغبان زاده قرار می‌گیرد.
+
+                    </p>
+
+
+
+                    <span>
+
+                        Technology
+
+                    </span>
+
+
+
+                    <span>
+
+                        AI
+
+                    </span>
+
+
+
+                </div>
+
+
+
+
+
+
+                <div class="article-card">
+
+
+                    <div class="article-icon">
+
+                        🧠
+
+                    </div>
+
+
+
+                    <h3>
+
+                        هوش مصنوعی و آینده
+
+                    </h3>
+
+
+
+                    <p>
+
+                        مطالب درباره فناوری‌های آینده و یادگیری
+
+                    </p>
+
+
+
+                    <span>
+
+                        Artificial Intelligence
+
+                    </span>
+
+
+
+                </div>
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+        <!-- =========================
+OWNER ARTICLE PANEL
+========================= -->
+
+
+        <section id="article-manager">
+
+
+            <h2>
+
+                مدیریت مقالات
+
+            </h2>
+
+
+
+            <div class="owner-box">
+
+
+
+                <h3>
+
+                    🔐 فقط صاحب سایت
+
+                </h3>
+
+
+
+                <p>
+
+                    این بخش در نسخه کامل با پنل مدیریت واقعی
+                    و ورود امن فعال می‌شود.
+
+                </p>
+
+
+
+                <input type="text" placeholder="عنوان مقاله">
+
+
+
+                <textarea placeholder="متن مقاله">
+
+</textarea>
+
+
+
+                <button>
+
+                    انتشار مقاله
+
+                </button>
+
+
+
+            </div>
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+        <!-- =========================
+NEWS SECTION
+========================= -->
+
+
+        <section id="news">
+
+
+            <h2>
+
+                مطالب جدید
+
+            </h2>
+
+
+
+
+            <div class="news-card">
+
+
+                <div>
+
+                    🔥
+
+                </div>
+
+
+                <h3>
+
+                    آخرین خبرها و فعالیت‌ها
+
+                </h3>
+
+
+                <p>
+
+                    اینجا اطلاعیه‌ها، پروژه‌های جدید و اتفاقات سایت قرار می‌گیرد.
+
+                </p>
+
+
+
+            </div>
+            <section id="dynamic-projects">
+
+
+                <h2>
+                    🚀 پروژه‌های رسمی
+                </h2>
+
+
+                <div id="publicProjectList" class="project-grid">
+
+                </div>
+
+
+            </section>
+
+
+        </section>
+        <!-- =========================
+BARSAM BOT SECTION
+========================= -->
+
+
+        <section id="bot">
+
+
+            <h2>
+
+                🤖 Barsam Bot
+
+            </h2>
+
+
+
+            <div class="bot-container">
+
+
+
+                <div class="bot-logo">
+
+                    🤖
+
+                </div>
+
+
+
+
+                <h3>
+
+                    دستیار هوشمند رسمی برسام
+
+                </h3>
+
+
+
+                <p>
+
+                    نسخه اولیه Barsam Bot
+
+                    <br>
+
+                    به زودی با هوش مصنوعی پیشرفته‌تر خواهد شد.
+
+                </p>
+
+
+
+                <div class="chat-box">
+
+
+
+                    <div id="botAnswer">
+
+                        سلام! من Barsam Bot هستم.
+                        چطور می‌توانم کمک کنم؟
+
+                    </div>
+
+
+
+                    <input id="botInput" type="text" placeholder="سوال خود را بنویسید...">
+
+
+
+                    <button onclick="askBarsamBot()">
+
+                        ارسال
+
+                    </button>
+
+
+
+                </div>
+
+
+
+            </div>
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+        <!-- =========================
+AI + DENTISTRY FUTURE
+========================= -->
+
+
+        <section id="healthcare">
+
+
+            <h2>
+
+                🦷 AI + Dentistry
+
+            </h2>
+
+
+
+
+            <div class="future-grid">
+
+
+                <div class="future-card">
+
+
+                    <img src="https://images.unsplash.com/photo-1584982751601-97dcc096659c" alt="AI Healthcare">
+
+
+
+                    <h3>
+
+                        پزشکی آینده
+
+                    </h3>
+
+
+
+                    <p>
+
+                        استفاده از فناوری هوش مصنوعی برای پیشرفت سلامت
+
+                    </p>
+
+
+
+                </div>
+
+
+
+
+
+
+                <div class="future-card">
+
+
+                    <div class="big-icon">
+
+                        🧠
+
+                    </div>
+
+
+
+                    <h3>
+
+                        Smart Technology
+
+                    </h3>
+
+
+
+                    <p>
+
+                        ترکیب علم، برنامه‌نویسی و پزشکی
+
+                    </p>
+
+
+
+                </div>
+
+
+
+
+            </div>
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+        <!-- =========================
+STATISTICS
+========================= -->
+
+
+        <section id="statistics">
+
+
+            <h2>
+
+                📊 آمار سایت
+
+            </h2>
+
+
+
+
+            <div class="stats-grid">
+
+
+
+                <div class="stat-card">
+
+
+                    <h3>
+
+                        👁
+
+                    </h3>
+
+
+                    <p>
+
+                        بازدید امروز
+
+                    </p>
+
+
+
+                    <strong>
+
+                        <span id="todayVisitors">
+
+                            0
+
+                        </span>
+
+                    </strong>
+
+
+                </div>
+
+
+
+
+
+
+                <div class="stat-card">
+
+
+                    <h3>
+
+                        🌎
+
+                    </h3>
+
+
+                    <p>
+
+                        بازدید کل
+
+                    </p>
+
+
+
+                    <strong>
+
+                        <span id="visitorNumber">
+
+                            0
+
+                        </span>
+
+                    </strong>
+
+
+                </div>
+
+
+
+
+
+
+
+                <div class="stat-card">
+
+
+                    <h3>
+
+                        📄
+
+                    </h3>
+
+
+                    <p>
+
+                        تعداد مقالات
+
+                    </p>
+
+
+
+                    <strong>
+
+                        10+
+
+                    </strong>
+
+
+                </div>
+
+
+
+
+
+
+            </div>
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+        <!-- =========================
+TESTIMONIAL SECTION
+========================= -->
+
+
+        <section id="comments">
+
+
+            <h2>
+
+                💬 نظرات کاربران
+
+            </h2>
+
+
+
+
+            <div class="comment-box">
+
+
+
+                <input placeholder="نام شما">
+
+
+
+                <textarea placeholder="نظر شما">
+
+</textarea>
+
+
+
+
+                <button>
+
+                    ارسال نظر
+
+                </button>
+
+
+
+            </div>
+
+
+
+
+
+
+            <div class="comment-list">
+
+
+                <div class="comment">
+
+                    ⭐ تجربه بازدیدکنندگان اینجا نمایش داده می‌شود.
+
+                </div>
+
+
+            </div>
+
+
+
+        </section>
+        <!-- =========================
+CONTACT SECTION
+========================= -->
+
+
+        <section id="contact">
+
+
+            <h2>
+
+                📩 ارتباط با من
+
+            </h2>
+
+
+
+
+            <div class="contact-grid">
+
+
+
+                <div class="contact-card">
+
+
+                    <div>
+
+                        🌐
+
+                    </div>
+
+
+
+                    <h3>
+
+                        Website
+
+                    </h3>
+
+
+                    <p>
+
+                        Official Barsam Website
+
+                    </p>
+
+
+                </div>
+
+
+
+
+
+
+                <div class="contact-card">
+
+
+                    <div>
+
+                        💻
+
+                    </div>
+
+
+
+                    <h3>
+
+                        Projects
+
+                    </h3>
+
+
+                    <p>
+
+                        Python | AI | Technology
+
+                    </p>
+
+
+                </div>
+
+
+
+
+
+
+
+                <div class="contact-card">
+
+
+                    <div>
+
+                        📚
+
+                    </div>
+
+
+
+                    <h3>
+
+                        Learning
+
+                    </h3>
+
+
+                    <p>
+
+                        Continuous Improvement
+
+                    </p>
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+        <!-- =========================
+GLOBAL LANGUAGE AREA
+========================= -->
+
+
+        <section id="languages">
+
+
+            <h2>
+
+                🌍 زبان‌ها
+
+            </h2>
+
+
+
+
+            <div class="language-box">
+
+
+                <button onclick="changeLanguage('fa')">
+
+                    🇮🇷 فارسی
+
+                </button>
+
+
+
+                <button onclick="changeLanguage('en')">
+
+                    🇺🇸 English
+
+                </button>
+
+
+
+                <button>
+
+                    🇩🇪 Deutsch
+
+                </button>
+
+
+
+                <button>
+
+                    🌎 More Languages
+
+                </button>
+
+
+
+            </div>
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+        <!-- =========================
+VISION MESSAGE
+========================= -->
+
+
+        <section id="future-message">
+
+
+            <div class="future-message-box">
+
+
+
+                <h2>
+
+                    آینده ساخته می‌شود
+
+                </h2>
+
+
+
+                <p>
+
+                    با یادگیری، تلاش و نوآوری می‌توان آینده بهتری ساخت.
+
+                </p>
+
+
+
+            </div>
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+        <!-- =========================
+MOTTO
+========================= -->
+
+
+        <section id="motto">
+
+
+            <h1>
+
+                شعار ما:
+
+            </h1>
+
+
+
+            <h2>
+
+                «موفقیت با دستان ما ساخته می‌شود»
+
+            </h2>
+
+
+
+        </section>
+        <!-- =========================
+SEO & BRAND SECTION
+========================= -->
+
+
+        <section id="brand-story">
+
+
+            <div class="story-container">
+
+
+                <h2>
+
+                    درباره برند Barsam Baghbanzadeh
+
+                </h2>
+
+
+
+                <p>
+
+                    این وب‌سایت فضای رسمی برای نمایش مسیر یادگیری،
+                    پروژه‌ها، مقالات و ایده‌های مرتبط با فناوری،
+                    هوش مصنوعی و آینده پزشکی است.
+
+                </p>
+
+
+
+                <div class="brand-tags">
+
+
+                    <span>
+                        Artificial Intelligence
+                    </span>
+
+
+                    <span>
+                        Python
+                    </span>
+
+
+                    <span>
+                        Technology
+                    </span>
+
+
+                    <span>
+                        Innovation
+                    </span>
+
+
+
+                </div>
+
+
+
+            </div>
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+        <!-- =========================
+TIMELINE
+========================= -->
+
+
+        <section id="timeline">
+
+
+            <h2>
+
+                مسیر رشد
+
+            </h2>
+
+
+
+            <div class="timeline">
+
+
+                <div class="timeline-item">
+
+
+                    <div class="timeline-dot">
+
+                        1
+
+                    </div>
+
+
+                    <h3>
+
+                        شروع یادگیری
+
+                    </h3>
+
+
+                    <p>
+
+                        یادگیری زبان انگلیسی، برنامه‌نویسی و فناوری
+
+                    </p>
+
+
+                </div>
+
+
+
+
+
+
+
+                <div class="timeline-item">
+
+
+                    <div class="timeline-dot">
+
+                        2
+
+                    </div>
+
+
+                    <h3>
+
+                        ساخت پروژه‌ها
+
+                    </h3>
+
+
+                    <p>
+
+                        توسعه پروژه‌های Python و Web
+
+                    </p>
+
+
+                </div>
+
+
+
+
+
+
+
+
+                <div class="timeline-item">
+
+
+                    <div class="timeline-dot">
+
+                        3
+
+                    </div>
+
+
+                    <h3>
+
+                        هوش مصنوعی و پزشکی
+
+                    </h3>
+
+
+                    <p>
+
+                        بررسی ارتباط AI با سلامت و آینده
+
+                    </p>
+
+
+                </div>
+
+
+
+            </div>
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+        <!-- =========================
+FEATURES
+========================= -->
+
+
+        <section id="features">
+
+
+            <h2>
+
+                امکانات سایت
+
+            </h2>
+
+
+
+            <div class="features-grid">
+
+
+                <div class="feature-card">
+
+                    ⚡
+
+                    <h3>
+                        سرعت بالا
+                    </h3>
+
+                    <p>
+                        طراحی بهینه و مدرن
+                    </p>
+
+                </div>
+
+
+
+
+                <div class="feature-card">
+
+                    🔐
+
+                    <h3>
+                        امنیت
+                    </h3>
+
+                    <p>
+                        آماده برای نسخه‌های حرفه‌ای
+                    </p>
+
+                </div>
+
+
+
+
+
+                <div class="feature-card">
+
+                    🌐
+
+                    <h3>
+                        چند زبان
+                    </h3>
+
+                    <p>
+                        ارتباط با کاربران جهان
+                    </p>
+
+                </div>
+
+
+
+
+
+                <div class="feature-card">
+
+                    🤖
+
+                    <h3>
+                        AI Ready
+                    </h3>
+
+                    <p>
+                        آماده اتصال به هوش مصنوعی
+                    </p>
+
+                </div>
+
+
+
+            </div>
+
+
+        </section>
+        <!-- =========================
+SOCIAL & DIGITAL PRESENCE
+========================= -->
+
+
+        <section id="social">
+
+
+            <h2>
+
+                حضور دیجیتال
+
+            </h2>
+
+
+
+            <div class="social-grid">
+
+
+
+                <div class="social-card">
+
+                    💻
+
+                    <h3>
+
+                        Programming
+
+                    </h3>
+
+                    <p>
+
+                        Python Projects
+
+                    </p>
+
+
+                </div>
+
+
+
+
+
+
+                <div class="social-card">
+
+                    🤖
+
+                    <h3>
+
+                        Artificial Intelligence
+
+                    </h3>
+
+                    <p>
+
+                        AI Research
+
+                    </p>
+
+
+                </div>
+
+
+
+
+
+
+                <div class="social-card">
+
+                    📖
+
+                    <h3>
+
+                        Knowledge
+
+                    </h3>
+
+                    <p>
+
+                        Articles & Learning
+
+                    </p>
+
+
+                </div>
+
+
+
+
+            </div>
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+        <!-- =========================
+NEWSLETTER
+========================= -->
+
+
+        <section id="newsletter">
+
+
+            <h2>
+
+                عضویت در خبرنامه
+
+            </h2>
+
+
+
+            <div class="newsletter-box">
+
+
+
+                <p>
+
+                    دریافت آخرین مطالب سایت
+
+                </p>
+
+
+
+                <input type="email" placeholder="ایمیل شما">
+
+
+
+                <button>
+
+                    عضویت
+
+                </button>
+
+
+
+            </div>
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+        <!-- =========================
+FAQ
+========================= -->
+
+
+        <section id="faq">
+
+
+            <h2>
+
+                سوالات متداول
+
+            </h2>
+
+
+
+
+            <div class="faq-item">
+
+
+                <h3>
+
+                    این سایت درباره چیست؟
+
+                </h3>
+
+
+                <p>
+
+                    فضایی برای نمایش پروژه‌ها، مقالات و مسیر فناوری.
+
+                </p>
+
+
+            </div>
+
+
+
+
+
+            <div class="faq-item">
+
+
+                <h3>
+
+                    Barsam Bot چیست؟
+
+                </h3>
+
+
+                <p>
+
+                    دستیار هوشمند آینده سایت است.
+
+                </p>
+
+
+            </div>
+
+
+
+
+
+
+
+            <div class="faq-item">
+
+
+                <h3>
+
+                    موضوعات اصلی سایت چیست؟
+
+                </h3>
+
+
+                <p>
+
+                    هوش مصنوعی، برنامه‌نویسی و فناوری پزشکی.
+
+                </p>
+
+
+            </div>
+
+
+
+
+        </section>
+        <!-- =========================
+ADVANCED PROFILE SECTION
+========================= -->
+
+
+        <section id="advanced-profile">
+
+
+            <h2>
+
+                پروفایل حرفه‌ای
+
+            </h2>
+
+
+
+            <div class="profile-container">
+
+
+
+                <div class="profile-avatar">
+
+                    BB
+
+                </div>
+
+
+
+
+                <div class="profile-info">
+
+
+                    <h3>
+
+                        Barsam Baghbanzadeh
+
+                    </h3>
+
+
+                    <p>
+
+                        Technology Explorer | AI Learner | Python Developer
+
+                    </p>
+
+
+
+                    <div class="profile-stats">
+
+
+                        <div>
+
+                            <strong>
+                                14+
+                            </strong>
+
+                            <span>
+                                Age
+                            </span>
+
+                        </div>
+
+
+
+
+                        <div>
+
+                            <strong>
+                                20+
+                            </strong>
+
+                            <span>
+                                Projects Ideas
+                            </span>
+
+                        </div>
+
+
+
+
+                        <div>
+
+                            <strong>
+                                ∞
+                            </strong>
+
+                            <span>
+                                Learning
+                            </span>
+
+                        </div>
+
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+        <!-- =========================
+GALLERY SECTION
+========================= -->
+
+
+        <section id="gallery">
+
+
+            <h2>
+
+                گالری
+
+            </h2>
+
+
+
+            <div class="gallery-grid">
+
+
+
+                <div class="gallery-card">
+
+                    🤖
+
+                    <h3>
+
+                        Artificial Intelligence
+
+                    </h3>
+
+                </div>
+
+
+
+
+
+
+                <div class="gallery-card">
+
+                    🐍
+
+                    <h3>
+
+                        Python
+
+                    </h3>
+
+                </div>
+
+
+
+
+
+
+
+                <div class="gallery-card">
+
+                    🦷
+
+                    <h3>
+
+                        Future Dentistry
+
+                    </h3>
+
+                </div>
+
+
+
+
+
+
+
+                <div class="gallery-card">
+
+                    🌎
+
+                    <h3>
+
+                        Global Technology
+
+                    </h3>
+
+                </div>
+
+
+
+            </div>
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+        <!-- =========================
+PROJECT SHOWCASE
+========================= -->
+
+
+        <section id="showcase">
+
+
+            <h2>
+
+                نمایش ویژه پروژه‌ها
+
+            </h2>
+
+
+
+            <div class="showcase-container">
+
+
+
+                <article class="showcase-card">
+
+
+                    <h3>
+
+                        AI Assistant
+
+                    </h3>
+
+
+
+                    <p>
+
+                        ایده یک دستیار هوشمند برای کمک به کاربران
+
+                    </p>
+
+
+
+                    <button>
+
+                        جزئیات
+
+                    </button>
+
+
+                </article>
+
+
+
+
+
+
+                <article class="showcase-card">
+
+
+                    <h3>
+
+                        Python Applications
+
+                    </h3>
+
+
+
+                    <p>
+
+                        نرم‌افزارها و تمرین‌های برنامه‌نویسی
+
+                    </p>
+
+
+
+                    <button>
+
+                        جزئیات
+
+                    </button>
+
+
+                </article>
+
+
+
+
+
+
+                <article class="showcase-card">
+
+
+                    <h3>
+
+                        Medical Technology
+
+                    </h3>
+
+
+
+                    <p>
+
+                        ایده‌های ترکیب فناوری و سلامت
+
+                    </p>
+
+
+
+                    <button>
+
+                        جزئیات
+
+                    </button>
+
+
+                </article>
+
+
+
+
+            </div>
+
+
+
+        </section>
+        <!-- =========================
+OWNER DASHBOARD PREVIEW
+========================= -->
+
+
+        <section id="dashboard">
+
+
+            <h2>
+
+                👑 پنل مدیریت صاحب سایت
+
+            </h2>
+
+
+
+            <div class="dashboard-box">
+
+
+
+                <div class="dashboard-item">
+
+                    📄
+
+                    <h3>
+
+                        مدیریت مقاله‌ها
+
+                    </h3>
+
+                    <p>
+
+                        ایجاد و ویرایش نوشته‌ها
+
+                    </p>
+
+                </div>
+
+
+
+
+
+
+                <div class="dashboard-item">
+
+                    🚀
+
+                    <h3>
+
+                        مدیریت پروژه‌ها
+
+                    </h3>
+
+                    <p>
+
+                        افزودن پروژه‌های جدید
+
+                    </p>
+
+                </div>
+
+
+
+
+
+
+
+                <div class="dashboard-item">
+
+                    📊
+
+                    <h3>
+
+                        مشاهده آمار
+
+                    </h3>
+
+                    <p>
+
+                        بررسی بازدیدها
+
+                    </p>
+
+                </div>
+
+
+
+
+
+
+            </div>
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+        <!-- =========================
+CERTIFICATE SECTION
+========================= -->
+
+
+        <section id="certificates">
+
+
+            <h2>
+
+                مدارک و یادگیری‌ها
+
+            </h2>
+
+
+
+            <div class="certificate-grid">
+
+
+
+                <div class="certificate-card">
+
+                    🎓
+
+                    <h3>
+
+                        Programming
+
+                    </h3>
+
+                    <p>
+
+                        Python & Web Learning
+
+                    </p>
+
+                </div>
+
+
+
+
+
+
+
+                <div class="certificate-card">
+
+                    🌐
+
+                    <h3>
+
+                        English
+
+                    </h3>
+
+                    <p>
+
+                        Global Communication
+
+                    </p>
+
+                </div>
+
+
+
+
+
+
+
+                <div class="certificate-card">
+
+                    🤖
+
+                    <h3>
+
+                        AI
+
+                    </h3>
+
+                    <p>
+
+                        Artificial Intelligence Study
+
+                    </p>
+
+                </div>
+
+
+
+            </div>
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+        <!-- =========================
+LIVE STATUS
+========================= -->
+
+
+        <section id="live-status">
+
+
+            <h2>
+
+                وضعیت سایت
+
+            </h2>
+
+
+
+            <div class="status-box">
+
+
+                <div class="online">
+
+                    🟢 Website Online
+
+                </div>
+
+
+
+                <div>
+
+                    ⚡ Technology Mode Active
+
+                </div>
+
+
+
+                <div>
+
+                    🤖 AI System Preparing
+
+                </div>
+
+
+
+            </div>
+
+
+
+        </section>
+        <!-- =========================
+USER EXPERIENCE CENTER
+========================= -->
+
+
+        <section id="experience-center">
+
+
+            <h2>
+
+                مرکز تجربه کاربری
+
+            </h2>
+
+
+
+            <div class="experience-grid">
+
+
+
+                <div class="experience-card">
+
+
+                    <div class="experience-icon">
+
+                        ✨
+
+                    </div>
+
+
+                    <h3>
+
+                        طراحی مدرن
+
+                    </h3>
+
+
+                    <p>
+
+                        رابط کاربری ساده، سریع و حرفه‌ای برای کاربران
+
+                    </p>
+
+
+                </div>
+
+
+
+
+
+
+
+                <div class="experience-card">
+
+
+                    <div class="experience-icon">
+
+                        ⚡
+
+                    </div>
+
+
+                    <h3>
+
+                        عملکرد بالا
+
+                    </h3>
+
+
+                    <p>
+
+                        ساختار آماده برای توسعه و امکانات بیشتر
+
+                    </p>
+
+
+                </div>
+
+
+
+
+
+
+
+                <div class="experience-card">
+
+
+                    <div class="experience-icon">
+
+                        🌍
+
+                    </div>
+
+
+                    <h3>
+
+                        کاربر جهانی
+
+                    </h3>
+
+
+                    <p>
+
+                        آماده برای زبان‌ها و کاربران مختلف
+
+                    </p>
+
+
+                </div>
+
+
+
+
+            </div>
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+        <!-- =========================
+KNOWLEDGE CENTER
+========================= -->
+
+
+        <section id="knowledge">
+
+
+            <h2>
+
+                مرکز دانش
+
+            </h2>
+
+
+
+
+            <div class="knowledge-box">
+
+
+
+                <div>
+
+                    📚
+
+                    <h3>
+
+                        مقالات علمی
+
+                    </h3>
+
+                    <p>
+
+                        مطالب آموزشی و تجربه‌های یادگیری
+
+                    </p>
+
+
+                </div>
+
+
+
+
+
+                <div>
+
+                    💡
+
+                    <h3>
+
+                        ایده‌ها
+
+                    </h3>
+
+
+                    <p>
+
+                        ایده‌های فناوری و نوآوری
+
+                    </p>
+
+
+                </div>
+
+
+
+
+
+                <div>
+
+                    🔬
+
+                    <h3>
+
+                        تحقیق
+
+                    </h3>
+
+
+                    <p>
+
+                        بررسی موضوعات جدید فناوری
+
+                    </p>
+
+
+                </div>
+
+
+
+            </div>
+
+
+        </section>
+        <!-- =========================
+CONTENT LIBRARY
+========================= -->
+
+
+        <section id="content-library">
+
+
+            <h2>
+
+                کتابخانه محتوا
+
+            </h2>
+
+
+
+            <div class="library-grid">
+
+
+
+                <div class="library-card">
+
+
+                    <h3>
+
+                        📖 مقالات
+
+                    </h3>
+
+
+                    <p>
+
+                        مجموعه نوشته‌های رسمی سایت
+
+                    </p>
+
+
+                    <button>
+
+                        مشاهده
+
+                    </button>
+
+
+                </div>
+
+
+
+
+
+
+
+                <div class="library-card">
+
+
+                    <h3>
+
+                        🎥 ویدیوها
+
+                    </h3>
+
+
+                    <p>
+
+                        آموزش‌ها و معرفی پروژه‌ها
+
+                    </p>
+
+
+                    <button>
+
+                        مشاهده
+
+                    </button>
+
+
+                </div>
+
+
+
+
+
+
+
+                <div class="library-card">
+
+
+                    <h3>
+
+                        📂 فایل‌ها
+
+                    </h3>
+
+
+                    <p>
+
+                        منابع و پروژه‌ها
+
+                    </p>
+
+
+                    <button>
+
+                        مشاهده
+
+                    </button>
+
+
+                </div>
+
+
+
+
+            </div>
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+        <!-- =========================
+FAVORITE TOPICS
+========================= -->
+
+
+        <section id="topics">
+
+
+            <h2>
+
+                موضوعات مورد علاقه
+
+            </h2>
+
+
+
+
+            <div class="topic-tags">
+
+
+                <span>
+
+                    🤖 AI
+
+                </span>
+
+
+                <span>
+
+                    🐍 Python
+
+                </span>
+
+
+                <span>
+
+                    🦷 Dentistry
+
+                </span>
+
+
+                <span>
+
+                    🌐 Web
+
+                </span>
+
+
+                <span>
+
+                    📚 Learning
+
+                </span>
+
+
+                <span>
+
+                    🚀 Innovation
+
+                </span>
+
+
+
+            </div>
+
+
+
+        </section>
+        <!-- =========================
+VIDEO CENTER
+========================= -->
+
+
+        <section id="video-center">
+
+
+            <h2>
+
+                مرکز ویدیو
+
+            </h2>
+
+
+
+
+            <div class="video-grid">
+
+
+
+                <div class="video-card">
+
+
+                    <div class="video-placeholder">
+
+                        ▶️
+
+                    </div>
+
+
+
+                    <h3>
+
+                        معرفی سایت
+
+                    </h3>
+
+
+                    <p>
+
+                        ویدیوی معرفی رسمی Barsam Website
+
+                    </p>
+
+
+                </div>
+
+
+
+
+
+
+
+                <div class="video-card">
+
+
+                    <div class="video-placeholder">
+
+                        ▶️
+
+                    </div>
+
+
+
+                    <h3>
+
+                        آموزش‌ها
+
+                    </h3>
+
+
+                    <p>
+
+                        محتوای آموزشی آینده
+
+                    </p>
+
+
+                </div>
+
+
+
+
+
+
+
+                <div class="video-card">
+
+
+                    <div class="video-placeholder">
+
+                        ▶️
+
+                    </div>
+
+
+
+                    <h3>
+
+                        پروژه‌ها
+
+                    </h3>
+
+
+                    <p>
+
+                        نمایش پروژه‌های ساخته شده
+
+                    </p>
+
+
+                </div>
+
+
+
+
+            </div>
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+        <!-- =========================
+MEDIA CENTER
+========================= -->
+
+
+        <section id="media-center">
+
+
+            <h2>
+
+                رسانه سایت
+
+            </h2>
+
+
+
+            <div class="media-box">
+
+
+                <p>
+
+                    📰 اخبار
+
+                    &nbsp; | &nbsp;
+
+                    🎬 ویدیو
+
+                    &nbsp; | &nbsp;
+
+                    📷 تصاویر
+
+                </p>
+
+
+            </div>
+
+
+
+        </section>
+        <!-- =========================
+CHALLENGE CENTER
+========================= -->
+
+
+        <section id="challenge-center">
+
+
+            <h2>
+
+                مرکز چالش‌ها
+
+            </h2>
+
+
+
+
+            <div class="challenge-grid">
+
+
+
+                <div class="challenge-card">
+
+
+                    <h3>
+
+                        🐍 Python Challenge
+
+                    </h3>
+
+
+                    <p>
+
+                        تمرین‌های برنامه‌نویسی و حل مسئله
+
+                    </p>
+
+
+                    <button>
+
+                        شروع
+
+                    </button>
+
+
+                </div>
+
+
+
+
+
+
+
+                <div class="challenge-card">
+
+
+                    <h3>
+
+                        🤖 AI Challenge
+
+                    </h3>
+
+
+                    <p>
+
+                        یادگیری مفاهیم هوش مصنوعی
+
+                    </p>
+
+
+                    <button>
+
+                        شروع
+
+                    </button>
+
+
+                </div>
+
+
+
+
+
+
+
+                <div class="challenge-card">
+
+
+                    <h3>
+
+                        🌎 Learning Challenge
+
+                    </h3>
+
+
+                    <p>
+
+                        ساخت عادت یادگیری روزانه
+
+                    </p>
+
+
+                    <button>
+
+                        شروع
+
+                    </button>
+
+
+                </div>
+
+
+
+
+            </div>
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+        <!-- =========================
+COMMUNITY SECTION
+========================= -->
+
+
+        <section id="community">
+
+
+            <h2>
+
+                جامعه کاربران
+
+            </h2>
+
+
+
+            <div class="community-box">
+
+
+                <h3>
+
+                    به خانواده Barsam Website خوش آمدید
+
+                </h3>
+
+
+                <p>
+
+                    محلی برای یادگیری، ایده‌ها و فناوری
+
+                </p>
+
+
+
+                <button>
+
+                    عضویت
+
+                </button>
+
+
+            </div>
+
+
+
+        </section>
+        <!-- =========================
+AI LAB
+========================= -->
+
+        <section id="ai-lab">
+
+            <h2>
+                🤖 Barsam AI Laboratory
+            </h2>
+
+
+            <div class="ai-lab-container">
+
+
+                <div class="ai-image-card">
+
+                    <img src="images/ai-tech.jpg" alt="Artificial Intelligence Technology">
+
+
+                    <h3>
+                        Artificial Intelligence
+                    </h3>
+
+
+                    <p>
+                        آزمایشگاه ایده‌های هوش مصنوعی و فناوری آینده
+                    </p>
+
+
+                    <button onclick="showAIMessage()">
+                        شروع AI Lab
+                    </button>
+
+
+                </div>
+
+
+
+                <div class="ai-image-card">
+
+                    <img src="images/dentistry-ai.jpg" alt="AI Dentistry">
+
+
+                    <h3>
+                        AI + Dentistry
+                    </h3>
+
+
+                    <p>
+                        ترکیب پزشکی و هوش مصنوعی برای آینده
+                    </p>
+
+
+                    <button onclick="showDentalMessage()">
+                        مشاهده آینده
+                    </button>
+
+
+                </div>
+
+
+
+            </div>
+
+
+        </section>
+        <!-- =========================
+ADVANCED SETTINGS
+========================= -->
+
+
+        <section id="settings">
+
+
+            <h2>
+                ⚙️ تنظیمات سایت
+            </h2>
+
+
+
+            <div class="settings-panel">
+
+
+                <div class="setting-item">
+
+                    🎨
+
+                    <h3>
+                        Theme
+                    </h3>
+
+
+                    <button onclick="changeTheme()">
+                        تغییر تم
+                    </button>
+
+
+                </div>
+
+
+
+
+
+                <div class="setting-item">
+
+                    🌐
+
+                    <h3>
+                        Language
+                    </h3>
+
+
+                    <button onclick="changeLanguage('fa')">
+                        فارسی
+                    </button>
+
+
+                    <button onclick="changeLanguage('en')">
+                        English
+                    </button>
+
+
+                </div>
+
+
+
+
+
+                <div class="setting-item">
+
+                    🔔
+
+                    <h3>
+                        Notifications
+                    </h3>
+
+
+                    <button onclick="createNotification('Notifications Active')">
+
+                        فعال‌سازی
+
+                    </button>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+        <!-- =========================
+BRAND PRESENTATION
+========================= -->
+
+
+        <section id="brand-presentation">
+
+
+            <div class="brand-banner">
+
+
+                <img src="images/barsam-banner.jpg" alt="Barsam Baghbanzadeh Technology">
+
+
+
+                <h1>
+
+                    Barsam Baghbanzadeh
+
+                </h1>
+
+
+
+                <h2>
+
+                    Technology | AI | Future Healthcare
+
+                </h2>
+
+
+
+                <p>
+
+                    ساخت آینده با دانش و نوآوری
+
+                </p>
+
+
+
+                <button onclick="scrollToSection('projects')">
+
+                    مشاهده پروژه‌ها
+
+                </button>
+
+
+
+            </div>
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+        <!-- =========================
+QUOTE
+========================= -->
+
+
+        <section id="quote">
+
+
+            <div class="quote-box">
+
+
+                <h2>
+
+                    «موفقیت با دستان ما ساخته می‌شود»
+
+                </h2>
+
+
+                <p>
+
+                    Every great future starts with learning.
+
+                </p>
+
+
+            </div>
+
+
+        </section>
+        <!-- =========================
+CONTACT FORM ADVANCED
+========================= -->
+
+
+        <section id="advanced-contact">
+
+
+            <h2>
+                📩 ارتباط حرفه‌ای
+            </h2>
+
+
+
+            <div class="contact-form">
+
+
+                <input type="text" placeholder="نام شما">
+
+
+
+                <input type="email" placeholder="ایمیل شما">
+
+
+
+                <textarea placeholder="پیام شما">
+
+</textarea>
+
+
+
+                <button onclick="sendMessage()">
+
+                    ارسال پیام
+
+                </button>
+
+
+
+            </div>
+
+
+        </section>
+
+
+
+
+
+
+
+
+        <!-- =========================
+MAP / GLOBAL
+========================= -->
+
+
+        <section id="global">
+
+            <h2>
+                🌍 Global Presence
+            </h2>
+
+
+            <div class="world-card">
+
+
+                <img src="images/world-tech.jpg" alt="Global Technology">
+
+
+
+                <p>
+
+                    اتصال فناوری و دانش از سراسر جهان
+
+                </p>
+
+
+            </div>
+
+
+        </section>
+        <!-- =========================
+FINAL SHOWCASE
+========================= -->
+
+
+        <section id="final-showcase">
+
+
+            <h2>
+
+                ✨ Official Digital Identity
+
+            </h2>
+
+
+
+            <div class="final-card">
+
+
+                <img src="images/barsam-logo.jpg" alt="Barsam Baghbanzadeh Logo">
+
+
+
+                <h1>
+
+                    Barsam Baghbanzadeh
+
+                </h1>
+
+
+
+                <p>
+
+                    Official Website
+
+                    <br>
+
+                    AI • Technology • Innovation
+
+                </p>
+
+
+
+                <button onclick="window.print()">
+
+                    ذخیره معرفی
+
+                </button>
+
+
+            </div>
+
+
+        </section>
+        <!-- =========================
+FOOTER
+========================= -->
+
+
+        <footer>
+
+
+            <div class="footer-logo">
+
+                BB
+
+            </div>
+
+
+
+            <h2>
+
+                Barsam Baghbanzadeh
+
+            </h2>
+
+
+
+            <p>
+
+                Technology | Artificial Intelligence | Future Healthcare
+
+            </p>
+
+
+
+            <p>
+
+                © 2026 All Rights Reserved
+
+            </p>
+
+
+
+        </footer>
+
+
+
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+
+</html>
