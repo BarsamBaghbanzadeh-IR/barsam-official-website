@@ -1,72 +1,82 @@
-<h1 align="center">🔥 برسام باغبان‌زاده | Barsam Baghbanzadeh 🔥</h1>
+<h1 align="center">Hi 👋, I'm Barsam Baghbanzadeh</h1>
+<h3 align="center">A 14-year-old AI enthusiast & programmer from Rasht, Iran 🇮🇷</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=30&pause=1000&color=00F700&center=true&vCenter=true&width=800&lines=🚀+Future+AI+Leader+🚀;🌍+From+Iran+to+the+World+🌍;💯+100+Followers+Per+Day+💯;🎯+1+Billion+Views+Goal+🎯" alt="Typing SVG" />
+  <a href="https://github.com/BarsamBaghbanzadeh-IR">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Hi+there%2C+I'm+Barsam!;14+years+old+%7C+Rasht%2C+Iran;I+love+Python+%26+Artificial+Intelligence;Always+learning%2C+always+building+%F0%9F%9A%80" alt="Typing SVG" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=BarsamBaghbanzadeh-IR&label=Profile%20Views&color=0e75b6&style=flat" alt="profile views" />
+  <img src="https://img.shields.io/badge/Age-14-blue?style=flat-square" alt="age" />
+  <img src="https://img.shields.io/badge/Location-Rasht%2C%20Iran-green?style=flat-square" alt="location" />
+  <img src="https://img.shields.io/badge/Focus-AI%20%26%20Python-orange?style=flat-square" alt="focus" />
 </p>
 
 ---
 
-## 👤 درباره من
-سلام! من **برسام باغبان‌زاده** هستم 🇮🇷  
-یک نوجوان ایرانی با رویای جهانی شدن در حوزه **هوش مصنوعی، فناوری و تولید محتوای آموزشی**.  
-هدف من این است که نفر 1 در جهان شوم و دانش را به همه منتقل کنم.  
+### 🚀 About Me
+
+- 🌱 I'm **14 years old**, from the beautiful city of **Rasht, Iran**
+- 💻 I'm passionate about **programming**, especially **Python**
+- 🤖 I love exploring **Artificial Intelligence** and how it shapes the future
+- 📜 Certified in **ICDL** and hold an **AI certificate from Sharif University of Technology**
+- ✍️ I write articles on **Medium** and **Virgool** about tech & AI
+- 🌐 Check out my personal website: **[barsambaghbanzadeh-ir.github.io/Barsam](https://barsambaghbanzadeh-ir.github.io/Barsam)**
+- 📫 Always open to connect with people who love tech as much as I do!
 
 ---
 
-## 🌐 Translation Buttons
+### 🛠️ Skills & Tools
+
 <p align="center">
-  <a href="https://translate.google.com/?sl=auto&tl=fa&u=https://github.com/BarsamBaghbanzadeh-IR/barsam-official-website"><img src="https://img.shields.io/badge/🇮🇷 فارسی-red?style=for-the-badge"></a>
-  <a href="https://translate.google.com/?sl=auto&tl=en&u=https://github.com/BarsamBaghbanzadeh-IR/barsam-official-website"><img src="https://img.shields.io/badge/🇺🇳 English-blue?style=for-the-badge"></a>
-  <a href="https://translate.google.com/?sl=auto&tl=ar&u=https://github.com/BarsamBaghbanzadeh-IR/barsam-official-website"><img src="https://img.shields.io/badge/🇸🇦 العربية-green?style=for-the-badge"></a>
-  <a href="https://translate.google.com/?sl=auto&tl=fr&u=https://github.com/BarsamBaghbanzadeh-IR/barsam-official-website"><img src="https://img.shields.io/badge/🇫🇷 Français-lightgrey?style=for-the-badge"></a>
-  <a href="https://translate.google.com/?sl=auto&tl=ru&u=https://github.com/BarsamBaghbanzadeh-IR/barsam-official-website"><img src="https://img.shields.io/badge/🇷🇺 Русский-orange?style=for-the-badge"></a>
-  <a href="https://translate.google.com/?sl=auto&tl=zh-CN&u=https://github.com/BarsamBaghbanzadeh-IR/barsam-official-website"><img src="https://img.shields.io/badge/🇨🇳 中文-yellow?style=for-the-badge"></a>
-  <a href="https://translate.google.com/?sl=auto&tl=es&u=https://github.com/BarsamBaghbanzadeh-IR/barsam-official-website"><img src="https://img.shields.io/badge/🇪🇸 Español-pink?style=for-the-badge"></a>
+  <img src="https://skillicons.dev/icons?i=python,html,css,js,git,github,vscode" alt="skills" />
 </p>
 
 ---
 
-## 📊 آمار و پشتیبانی
+### 📊 GitHub Stats
+
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=BarsamBaghbanzadeh-IR&style=for-the-badge&color=brightgreen" alt="Profile Views"/>
-  <img src="https://img.shields.io/github/followers/BarsamBaghbanzadeh-IR?style=for-the-badge&color=blue" alt="Followers"/>
-  <img src="https://img.shields.io/github/stars/BarsamBaghbanzadeh-IR/barsam-official-website?style=for-the-badge&color=yellow" alt="Stars"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=BarsamBaghbanzadeh-IR&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
+  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=BarsamBaghbanzadeh-IR&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BarsamBaghbanzadeh-IR&layout=compact&theme=tokyonight&hide_border=true" alt="Top Langs" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=BarsamBaghbanzadeh-IR&theme=tokyo-night&hide_border=true" alt="activity graph" />
 </p>
 
 ---
 
-## 🎥 ویدئوها و آموزش‌ها
-- [My Goal](https://www.aparat.com/)  
-- [Parallel Universe](https://www.aparat.com/)  
-- ویدئوهای آموزشی انگلیسی و فارسی در آپارات و یوتیوب  
+### 🐍 A Little Python, Just Because
+
+```python
+class Barsam:
+    def __init__(self):
+        self.name = "Barsam Baghbanzadeh"
+        self.age = 14
+        self.city = "Rasht, Iran"
+        self.passions = ["Python", "Artificial Intelligence", "Writing"]
+
+    def say_hi(self):
+        print(f"Hi, I'm {self.name} from {self.city}!")
+        print(f"At {self.age}, I'm already chasing big dreams in tech 🚀")
+
+me = Barsam()
+me.say_hi()
+```
 
 ---
 
-## ❤️ حمایت کنید
-اگر از کار من خوشتان آمد:  
-- ⭐ پروژه را استار کنید  
-- 👥 مرا فالو کنید  
-- 🔔 سابسکرایب کنید  
-- 💬 نظر بگذارید  
-
----
+### 🌐 Connect With Me
 
 <p align="center">
-  <img src="https://img.shields.io/badge/🌍-Iranian%20Youth%20Leader-purple?style=for-the-badge" alt="Iranian Youth Leader"/>
-</p>
-<h1 align="center">🌀 3D README | Barsam Baghbanzadeh 🌀</h1>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=30&pause=1000&color=FF00FF&center=true&vCenter=true&width=800&lines=🌍+Global+Vision;🔥+AI+Future+Leader;💎+3D+Innovation;🚀+From+Iran+to+the+World" alt="Typing SVG" />
+  <a href="https://barsambaghbanzadeh-ir.github.io/Barsam"><img src="https://img.shields.io/badge/Website-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
 </p>
 
----
-
-## 🎨 افکت سه‌بعدی
-```ascii
-██████╗ █████╗ ██████╗ ███████╗ █████╗ ███╗   ███╗
-██╔══██╗██╔══██╗██╔══██╗██╔════╝██╔══██╗████╗ ████║
-██████╔╝███████║██████╔╝███████╗███████║██╔████╔██║
-██╔═══╝ ██╔══██║██╔═══╝ ╚════██║██╔══██║██║╚██╔╝██║
-██║     ██║  ██║██║     ███████║██║  ██║██║ ╚═╝ ██║
-╚═╝     ╚═╝  ╚═╝╚═╝     ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝
+<p align="center"><i>Thanks for visiting my profile — if you like what you see, a ⭐ or a follow means a lot! 🙌</i></p>
