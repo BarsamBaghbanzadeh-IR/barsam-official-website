@@ -78,5 +78,17 @@ me.say_hi()
 <p align="center">
   <a href="https://barsambaghbanzadeh-ir.github.io/Barsam"><img src="https://img.shields.io/badge/Website-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
 </p>
+### 🐍 My Contribution Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/BarsamBaghbanzadeh-IR/BarsamBaghbanzadeh-IR/output/github-contribution-grid-snake.svg" alt="snake animation" />
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/-%F0%9F%87%AE%F0%9F%87%B7%20Proudly%20from%20Iran-239F40?style=for-the-badge" />
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" />
+</p>
 
 <p align="center"><i>Thanks for visiting my profile — if you like what you see, a ⭐ or a follow means a lot! 🙌</i></p>
